@@ -1,7 +1,4 @@
-import Testing from "../testing";
-import Navbar  from "./components/Navbar";
-
-
+import Testing from "./testing";
 
 function App (){
 
