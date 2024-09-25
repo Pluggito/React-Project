@@ -1,12 +1,10 @@
-import Login from './LoginPage/LoginSignUp';
-import Footer from './footer';
+import Login from "./LoginPage/LoginSignUp";
 
 function App() 
   {
     return(
       <>
-  <Login/>
-  <Footer/>
+    <Login/>
       </>
     )
   }

@@ -4,29 +4,13 @@ import './LoginPage.css'
 const Login = () => {
   return (
     <div className='container'>
-      <div className='header'>
-        <div className='text'>Sign</div>
-        <div className="underline">heyyyyy</div>
-      </div>
-      <div className="inputs">
-      <div className="input"></div>
-      <input type="username"/>
-      </div>
+      <form>
+        <h1>Login page</h1>
+        <input type='name' placeholder='enter name'></input>
+        <input type='email' placeholder='enter email'></input>
+        <button type='button'></button>
+      </form>
 
-      <div className="inputs">
-      <div className="input"></div>
-      <input type="email"/>
-      </div>
-
-      <div className="inputs">
-      <div className="input"></div>
-      <input type="password"/>
-      </div>
-      
-      <button type='button'></button>
-
-
-      
     </div>
   )
 }
