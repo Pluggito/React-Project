@@ -6,10 +6,7 @@ import omo from './Omo.jsx'
 const App = () => {
   return (
     
-    <>
-      <head/>
-      <omo />
-    </>
+    
   
   
   )
